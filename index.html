@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Blvck lyrics</title>  
+  </head>
+  <body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <section class="hero">
+            <div class="top">
+                <div class="top-content">
+                    <div class="bg left">
+                        <img src="./imgs/pexels-grzegorz-4336587.jpg" alt="">
+                    </div>
+                    <div class="center">
+        
+                    </div>
+                    <div class="bg right" >
+                        <img src="./imgs/pexels-sound-on-3756943.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="lead">
+                <h1>
+                    Enhancing the experience of music worldwide.
+                </h1>
+                <p> <i class="fa fa-music"></i> find the lyrics of top songs!</p>
+            </div>
+            <div class="search">
+                <input type="text" name="" id="search-songs" placeholder="&#xF002 Type song title or artiste" style="font-family: Arial, FontAwesome; font-size: 2rem; padding: 30px; border-radius: 5rem;">
+            </div>
+        </section>
+
+        <section class="display" id="display">
+            <div class="display-container">
+                <h1>Songs</h1>
+                <div class="display-songs"></div>
+                <h1>Artists</h1>
+                <div class="display-artists"></div>
+            </div>
+        </section>
+    </div>
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envelope"></i>Contact</li>
+        </ul>
+    </nav>
+    
+    <script src="script.js"></script>
+    <script src="genius.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
